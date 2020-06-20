@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/cedarcode/webauthn-ruby.git
-  revision: 1408dcec5c8ca590ea85e235d0cbaa1714023bfd
+  revision: 46fc8266ab41ce0993a65dd0d6fed4020150548d
   branch: relying_party
   specs:
-    webauthn (2.2.0)
+    webauthn (2.2.1)
       android_key_attestation (~> 0.3.0)
       awrence (~> 1.1)
       bindata (~> 2.4)
@@ -12,7 +12,7 @@ GIT
       openssl (~> 2.0)
       safety_net_attestation (~> 0.4.0)
       securecompare (~> 1.0)
-      tpm-key_attestation (~> 0.8.0)
+      tpm-key_attestation (~> 0.9.0)
 
 GEM
   remote: https://rubygems.org/
@@ -223,7 +223,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tpm-key_attestation (0.8.0)
+    tpm-key_attestation (0.9.0)
       bindata (~> 2.4)
       openssl-signature_algorithm (~> 0.4.0)
     tzinfo (1.2.7)
